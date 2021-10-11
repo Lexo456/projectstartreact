@@ -1,0 +1,24 @@
+.navigation {
+  display: flex;
+  padding: 24px 0;
+  margin: 12px;
+}
+
+a {
+  margin: 24px;
+  position: relative;
+  font-size: large;
+}
+
+.nav-active {
+  &::after {
+    content: "";
+    width: 85%;
+    height: 5px;
+    background: cadetblue;
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
