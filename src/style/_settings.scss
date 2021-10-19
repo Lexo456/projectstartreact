@@ -3,10 +3,12 @@
 * {
   background-color: bisque;
   font-family: "Noto Sans";
+  text-decoration: none;
 }
 
 a {
   text-decoration: none;
+  color: black;
   &::visited {
     text-decoration: none;
   }

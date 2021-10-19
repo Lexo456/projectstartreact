@@ -1,4 +1,5 @@
 import React from "react";
+import Countries from "../components/Countries";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       </p>
       <br />
       <h1>Test Titre 2</h1>
+      <Countries />;
       <br />
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus
